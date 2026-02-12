@@ -13,8 +13,6 @@ de l'infrastructure en une experience simple, securisee et conforme.
 
 <br/>
 
-[![ISO 27001](https://img.shields.io/badge/ISO_27001-Conforme-0A8F08?style=flat-square&logo=shield&logoColor=white)](.)
-[![HDS](https://img.shields.io/badge/HDS-Certifie-0A8F08?style=flat-square&logo=shield&logoColor=white)](.)
 [![License](https://img.shields.io/badge/License-Proprietary-333333?style=flat-square)](.)
 
 </div>
@@ -35,7 +33,7 @@ de l'infrastructure en une experience simple, securisee et conforme.
 
 | | Repository | Stack |
 |:---:|---|---|
-| <img src="https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=next.js" /> | **[ws-front-wakastart](https://github.com/wakastart/ws-front-wakastart)** | Next.js 16 · React · TailwindCSS |
+| <img src="https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=next.js" /> | **[ws-front-wakastart](https://github.com/waka-start/ws-front-wakastart)** | Next.js 16 · React · TailwindCSS |
 
 </td>
 <td width="50%" valign="top">
@@ -44,9 +42,9 @@ de l'infrastructure en une experience simple, securisee et conforme.
 
 | | Repository | Stack |
 |:---:|---|---|
-| <img src="https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" /> | **[ws-back-wakastart](https://github.com/wakastart/ws-back-wakastart)** | BFF NestJS |
-| <img src="https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" /> | **[ws-back-api](https://github.com/wakastart/ws-back-api)** | API publique |
-| <img src="https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" /> | **[ws-back-discovery](https://github.com/wakastart/ws-back-discovery)** | Service discovery |
+| <img src="https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" /> | **[ws-back-wakastart](https://github.com/waka-start/ws-back-wakastart)** | BFF NestJS |
+| <img src="https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" /> | **[ws-back-api](https://github.com/waka-start/ws-back-api)** | API publique |
+| <img src="https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" /> | **[ws-back-discovery](https://github.com/waka-start/ws-back-discovery)** | Service discovery |
 
 </td>
 </tr>
@@ -60,10 +58,10 @@ de l'infrastructure en une experience simple, securisee et conforme.
 
 | | Repository | Role |
 |:---:|---|---|
-| :wrench: | **[ws-serv-config](https://github.com/wakastart/ws-serv-config)** | Configuration & Prisma |
-| :key: | **[ws-serv-token](https://github.com/wakastart/ws-serv-token)** | Gestion des tokens |
-| :mag: | **[ws-serv-traces](https://github.com/wakastart/ws-serv-traces)** | Tracabilite |
-| :shield: | **[ws-serv-audit](https://github.com/wakastart/ws-serv-audit)** | Audit & compliance |
+| :wrench: | **[ws-serv-config](https://github.com/waka-start/ws-serv-config)** | Configuration & Prisma |
+| :key: | **[ws-serv-token](https://github.com/waka-start/ws-serv-token)** | Gestion des tokens |
+| :mag: | **[ws-serv-traces](https://github.com/waka-start/ws-serv-traces)** | Tracabilite |
+| :shield: | **[ws-serv-audit](https://github.com/waka-start/ws-serv-audit)** | Audit & compliance |
 
 </td>
 <td width="50%" valign="top">
@@ -72,10 +70,10 @@ de l'infrastructure en une experience simple, securisee et conforme.
 
 | | Repository | Role |
 |:---:|---|---|
-| :whale: | **[ws-serv-infraOperator](https://github.com/wakastart/ws-serv-infraOperator)** | Operateur Kubernetes |
-| :package: | **[ws-serv-imageBuilder](https://github.com/wakastart/ws-serv-imageBuilder)** | Build d'images |
-| :anchor: | **[ws-infra-helm-chart](https://github.com/wakastart/ws-infra-helm-chart)** | Charts Helm |
-| :globe_with_meridians: | **[ws-infra-opentofu-module](https://github.com/wakastart/ws-infra-opentofu-module)** | Modules OpenTofu |
+| :whale: | **[ws-serv-infraOperator](https://github.com/waka-start/ws-serv-infraOperator)** | Operateur Kubernetes |
+| :package: | **[ws-serv-imageBuilder](https://github.com/waka-start/ws-serv-imageBuilder)** | Build d'images |
+| :anchor: | **[ws-infra-helm-chart](https://github.com/waka-start/ws-infra-helm-chart)** | Charts Helm |
+| :globe_with_meridians: | **[ws-infra-opentofu-module](https://github.com/waka-start/ws-infra-opentofu-module)** | Modules OpenTofu |
 
 </td>
 </tr>
@@ -118,7 +116,7 @@ de l'infrastructure en une experience simple, securisee et conforme.
 | | Norme | Description |
 |:---:|:---:|---|
 | :white_check_mark: | **ISO 27001** | Systeme de management de la securite de l'information |
-| :white_check_mark: | **HDS** | Hebergement de Donnees de Sante |
+| :orange_square: | **HDS** | Hebergement de Donnees de Sante |
 | :white_check_mark: | **RGPD** | Protection des donnees personnelles |
 | :white_check_mark: | **OWASP** | Tests de securite sur chaque livraison |
 
