@@ -1,53 +1,141 @@
+<div align="center">
+
+<img src="https://img.shields.io/badge/wakastart-Infrastructure%20as%20Software-6C63FF?style=for-the-badge&logoColor=white" alt="Wakastart" />
+
+<br/><br/>
+
 # Wakastart
 
-**Infrastructure as Software** — La plateforme PaaS qui simplifie le deploiement et la gestion de vos applications.
+### Deployez vos applications, pas votre stress.
+
+La plateforme PaaS nouvelle generation qui transforme la complexite<br/>
+de l'infrastructure en une experience simple, securisee et conforme.
+
+<br/>
+
+[![ISO 27001](https://img.shields.io/badge/ISO_27001-Conforme-0A8F08?style=flat-square&logo=shield&logoColor=white)](.)
+[![HDS](https://img.shields.io/badge/HDS-Certifie-0A8F08?style=flat-square&logo=shield&logoColor=white)](.)
+[![License](https://img.shields.io/badge/License-Proprietary-333333?style=flat-square)](.)
+
+</div>
 
 ---
 
-## Nos repositories
+<br/>
 
-### Frontend
+## :rocket: Nos repositories
 
-| Repository | Description |
-|---|---|
-| [ws-front-wakastart](https://github.com/wakastart/ws-front-wakastart) | Application frontend Next.js |
+<br/>
 
-### Backend
+<table>
+<tr>
+<td width="50%" valign="top">
 
-| Repository | Description |
-|---|---|
-| [ws-back-wakastart](https://github.com/wakastart/ws-back-wakastart) | BFF (Backend For Frontend) NestJS |
-| [ws-back-api](https://github.com/wakastart/ws-back-api) | API publique NestJS |
-| [ws-back-discovery](https://github.com/wakastart/ws-back-discovery) | Service discovery |
+### :art: Frontend
 
-### Microservices
+| | Repository | Stack |
+|:---:|---|---|
+| <img src="https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=next.js" /> | **[ws-front-wakastart](https://github.com/wakastart/ws-front-wakastart)** | Next.js 16 · React · TailwindCSS |
 
-| Repository | Description |
-|---|---|
-| [ws-serv-config](https://github.com/wakastart/ws-serv-config) | Service de configuration (Prisma + API) |
-| [ws-serv-token](https://github.com/wakastart/ws-serv-token) | Service de gestion des tokens |
-| [ws-serv-traces](https://github.com/wakastart/ws-serv-traces) | Service de tracabilite |
-| [ws-serv-audit](https://github.com/wakastart/ws-serv-audit) | Service d'audit |
+</td>
+<td width="50%" valign="top">
 
-### Infrastructure
+### :gear: Backend
 
-| Repository | Description |
-|---|---|
-| [ws-serv-infraOperator](https://github.com/wakastart/ws-serv-infraOperator) | Operateur Kubernetes |
-| [ws-serv-imageBuilder](https://github.com/wakastart/ws-serv-imageBuilder) | Build d'images conteneur |
-| [ws-infra-helm-chart](https://github.com/wakastart/ws-infra-helm-chart) | Charts Helm |
-| [ws-infra-opentofu-module](https://github.com/wakastart/ws-infra-opentofu-module) | Modules OpenTofu (Terraform) |
+| | Repository | Stack |
+|:---:|---|---|
+| <img src="https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" /> | **[ws-back-wakastart](https://github.com/wakastart/ws-back-wakastart)** | BFF NestJS |
+| <img src="https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" /> | **[ws-back-api](https://github.com/wakastart/ws-back-api)** | API publique |
+| <img src="https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" /> | **[ws-back-discovery](https://github.com/wakastart/ws-back-discovery)** | Service discovery |
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### :zap: Microservices
+
+| | Repository | Role |
+|:---:|---|---|
+| :wrench: | **[ws-serv-config](https://github.com/wakastart/ws-serv-config)** | Configuration & Prisma |
+| :key: | **[ws-serv-token](https://github.com/wakastart/ws-serv-token)** | Gestion des tokens |
+| :mag: | **[ws-serv-traces](https://github.com/wakastart/ws-serv-traces)** | Tracabilite |
+| :shield: | **[ws-serv-audit](https://github.com/wakastart/ws-serv-audit)** | Audit & compliance |
+
+</td>
+<td width="50%" valign="top">
+
+### :cloud: Infrastructure
+
+| | Repository | Role |
+|:---:|---|---|
+| :whale: | **[ws-serv-infraOperator](https://github.com/wakastart/ws-serv-infraOperator)** | Operateur Kubernetes |
+| :package: | **[ws-serv-imageBuilder](https://github.com/wakastart/ws-serv-imageBuilder)** | Build d'images |
+| :anchor: | **[ws-infra-helm-chart](https://github.com/wakastart/ws-infra-helm-chart)** | Charts Helm |
+| :globe_with_meridians: | **[ws-infra-opentofu-module](https://github.com/wakastart/ws-infra-opentofu-module)** | Modules OpenTofu |
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 ---
 
-## Stack technique
+<br/>
 
-`Next.js` `NestJS` `Prisma` `PostgreSQL` `Keycloak` `Docker` `Kubernetes` `Helm` `OpenTofu`
+## :toolbox: Stack technique
 
-## Conformite
+<div align="center">
 
-Wakastart est concu pour respecter les normes **ISO 27001** et **HDS** (Hebergeur de Donnees de Sante).
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<br/>
+<img src="https://img.shields.io/badge/Keycloak-4D4D4D?style=for-the-badge&logo=keycloak&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+<img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenTofu-FFDA18?style=for-the-badge&logo=opentofu&logoColor=black" />
+
+</div>
+
+<br/>
 
 ---
 
-<sub>Wakastart — 2026</sub>
+<br/>
+
+## :lock: Securite & Conformite
+
+<div align="center">
+
+| | Norme | Description |
+|:---:|:---:|---|
+| :white_check_mark: | **ISO 27001** | Systeme de management de la securite de l'information |
+| :white_check_mark: | **HDS** | Hebergement de Donnees de Sante |
+| :white_check_mark: | **RGPD** | Protection des donnees personnelles |
+| :white_check_mark: | **OWASP** | Tests de securite sur chaque livraison |
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+
+<br/>
+
+**Wakastart** — *Built with :purple_heart: in France*
+
+<br/>
+
+<sub>2026 Wakastart. Tous droits reserves.</sub>
+
+</div>
